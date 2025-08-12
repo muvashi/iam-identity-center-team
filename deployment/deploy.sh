@@ -8,7 +8,7 @@ if [ -z "$TEAM_ACCOUNT" ]; then
 else
   export AWS_PROFILE=$TEAM_ACCOUNT_PROFILE
 fi
-
+ 
 cd ..
 
 # Update git remote and push changes
