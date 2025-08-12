@@ -43,7 +43,9 @@
                   "Action": [
                     "s3:ListAllMyBuckets",
                     "s3:PutBucketPolicy",
-                    "s3:PutBucketVersioning"
+                    "s3:PutBucketVersioning",
+                    "s3:GetBucketLocation",
+                    "s3:HeadBucket"
                   ],
                   "Effect": "Allow",
                   "Resource": "*"
